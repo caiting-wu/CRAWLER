@@ -1,7 +1,6 @@
 import openpyxl
 import urllib.request as req
 import bs4 
-#參考:https://youtu.be/9Z9xKWfNo7k
 
 #cookie(網站在使用者瀏覽器中存放的資料，連線時送出)
 
@@ -31,3 +30,4 @@ while count<3:
     pageURL="http://www.ptt.cc"+getData(pageURL)
     count+=1
 
+#參考:https://youtu.be/9Z9xKWfNo7k

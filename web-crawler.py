@@ -3,7 +3,7 @@ import urllib.request as req
 import bs4 
 #參考:https://youtu.be/9Z9xKWfNo7k
 
-#cookie(網站在使用者瀏覽器中存放的資料，連線時送出)https://youtu.be/BEA7F9ExiPY
+#cookie(網站在使用者瀏覽器中存放的資料，連線時送出)
 
 def getData(url):
     request=req.Request(url,headers={
